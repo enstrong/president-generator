@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="css/style.css">
-   <title>js</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Генератор Президента</title>
 </head>
 <body>
-   <script src="js/script.js"></script>
+	<div class="main">
+		<div class="container">
+			<div class="main-faq">
+				<p>Это Генератор Президента. <br> Нажимая на кнопку, вы будете получать случайного президента</p>
+			</div>
+			<div class="main-generator">
+				<p class="your-president">Ваш президент:</p>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg" class="country-img">
+				<p class="president-name">Имя</p>
+				<p class="president-surname">Фамилия</p>
+				<p class="president-age">Возраст <span class="president-age-area">99</span></p>
+				<p class="president-of">Президент <span class="president-of-country">Страны</span></p>
+				<button class="button">Сгенерировать</button>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
