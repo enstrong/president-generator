@@ -4,48 +4,22 @@
 }
 
 body {
-   font-family: 'Roboto', sans-serif;
+   font-family: '';
 }
 
 a {
    text-decoration: none;
 }
 
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
 .container {
-   max-width: 800px;
+   max-width: '';
    margin: 0 auto;
-   padding: 0 15px;
-}
-
-.main-faq {
-	max-width: 70%
-	margin: 0 auto;
-	border-bottom: 1px solid #eee;
-	padding: 20px 0;
-}
-
-.main-faq p {
-	text-align: center;
-}
-
-.main-generator {
-	width: 100%;
-	margin-top: 70px;
-	text-align: center;
-}
-
-.country-img {
-	width: 300px;
-	padding-bottom: 10px;
-}
-
-.main-generator p {
-	padding-bottom: 10px;
-}
-
-.button {
-	font-weight: 700;
-	padding: 12px 30px;
-	font-size: 16px;
-	line-height: 20px;
+   padding: '';
 }
